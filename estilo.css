@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500&family=Rowdies:wght@300;400&display=swap');
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #848c1b;
+    color: #00c2cb;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo {
+    width: 150px;
+    position: absolute;
+    top: 0.5px;
+    margin-left: 6%;
+}
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+}
+li {
+    float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20 10 20 10;
+    color: rgb(255, 255, 255);
+}
+li:hover {
+    background-color: #4e3a34;
+}
+
+
+#imagem_fundo {
+    background: url("img/fundo.png");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+#titulo {
+    color: #4e3a34;
+    padding-top: 23%;
+    text-align: right;
+    font-size: 70px;
+    line-height: 0.4;
+    margin-left: 33.5%;
+    margin-right: 15% ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#titulo1 {
+    color: #4e3a34;
+    font-size: 70px;
+    text-align: right;
+    line-height: 0.4;
+    margin-left: 33.5%;
+    margin-right: 14%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#titulo2 {
+    color: #000000;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#subtitulo {
+    color: rgb(0, 0, 0);
+    margin-left: 33.5%;
+    margin-right: 35%;
+    border-top: 2px solid rgb(0, 0, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#txt1 {
+    color: rgb(255, 255, 255);
+    margin-left: 88px;
+    font-size: 12px;
+    text-align: center;
+}
+#txt2 {
+    color: rgb(255, 255, 255);
+    margin-left: 65px;
+    font-size: 12px;
+    text-align: center;
+}
+#txt3 {
+    color: rgb(255, 255, 255);
+    margin-left: 34%;
+    font-size: 12px;
+    text-align: center;
+}
+#txt4 {
+    color: rgb(255, 255, 255);
+    margin-left: 88px;
+    font-size: 12px;
+    text-align: center;
+}
+#conteudos {
+    color: #4e3a34;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+#introduçao {
+    color: #4e3a34;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#contato {
+    color: #d0833b;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#acao {
+    color: white;
+    border: 1px white solid;
+    padding: 10px 20px 10px 20px ;
+}
+.icone {
+    width: 51px;
+}
+
+.icones {
+    width: 250px; 
+    text-align: center; 
+}
+section {
+    padding: 20px;
+    float: left;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.imgeco {
+    width: 90%;
+    height: 30%;
+}
+
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.dois {
+    width: 40%;
+}
+.quatro {
+    width: 13.5%;
+}
+.tres {
+    width: 29%;
+    padding: 0 2%;
+}
+
+.justificado {
+    text-align: justify;
+}
+.centralizado {
+    text-align: center;
+}
+
+.titulointroducao {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: #4e3a34;
+    font-size: 17px;
+}
+
+.titulosobrenos {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer2 {
+    background-color: #d9d4c3;
+    float: left;
+    width: 100%;
+    height: 70%;
+    color: white;
+}
+
+footer3 {
+    background-color: #d9d4c3;
+    float: left;
+    width: 100%;
+    height: 60%;
+    color: white;
+}
+
+
+@media all and (max-width: 762px) {
+   #menu {
+       visibility: hidden;
+   } 
+   .coluna, .dois, .tres, .quatro {
+        display: block;   
+        width: 100%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+   }
+
+   #subtitulo {
+    color: rgb(0, 0, 0);
+    margin-left: 30%;
+    margin-right: 35%;
+    border-top: 2px solid rgb(0, 0, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#txt1 {
+    color: rgb(255, 255, 255);
+    margin-left: 7px;
+}
+#txt2 {
+    color: rgb(255, 255, 255);
+    margin-left: 5px;
+}
+#txt3 {
+    color: rgb(255, 255, 255);
+    margin-left: 2%;
+}
+#txt4 {
+    color: rgb(255, 255, 255);
+    margin-left: 5px;
+}
+
+#titulo {
+    color: #000000;
+    padding-top: 30%;
+    text-align: center;
+    font-size: 40px;
+    line-height: 1;
+    margin-left: 23%;
+    margin-right: 34%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#titulo1 {
+    color: #4e3a34;
+    font-size: 40px;
+    text-align: center;
+    line-height: 0.4;
+    margin-left: 13%;
+    margin-right: 14%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+   footer2 {
+    background-color: #d9d4c3;
+    float: left;
+    width: 100%;
+    height: 1350px;
+    color: white;
+    text-align: center;
+}
+
+footer3 {
+    background-color: #d9d4c3;
+    float: left;
+    width: 100%;
+    height: 1350px;
+    color: white;
+    text-align: center;
+}
+
+#imagem_fundo {
+    background: #d6d4c3 ;
+    height: 80%;
+    background-size: cover;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+
+   #logodiv {
+       width: 100%;
+       position: relative;
+       text-align: center;
+       padding: 0px;
+   }
+   #logo {
+       margin-left: 0px;
+       transform: translateX(-50%);
+   }
+
+   @font-face {
+    font-family: Maddac;
+    src: url(FontsFree-Net-Maddac.ttf);
+   }
+}
