@@ -36,6 +36,7 @@ li {
 }
 li:hover {
     background-color: #4e3a34;
+    font-size: 18px;
 }
 
 
@@ -87,13 +88,13 @@ li:hover {
 }
 #txt2 {
     color: rgb(255, 255, 255);
-    margin-left: 65px;
+    margin-left: 90px;
     font-size: 12px;
     text-align: center;
 }
 #txt3 {
     color: rgb(255, 255, 255);
-    margin-left: 34%;
+    margin-left: 48%;
     font-size: 12px;
     text-align: center;
 }
@@ -130,6 +131,11 @@ li:hover {
     width: 250px; 
     text-align: center; 
 }
+
+.icones:hover {
+    width: 255px; 
+    text-align: center; 
+}
 section {
     padding: 20px;
     float: left;
@@ -151,7 +157,7 @@ section {
     width: 40%;
 }
 .quatro {
-    width: 13.5%;
+    width: 13%;
 }
 .tres {
     width: 29%;
