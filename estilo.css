@@ -8,6 +8,13 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+#imgintro {
+    border: black Solid 5px;
+    width: 100%;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
 header {
     background-color: #848c1b;
     color: #00c2cb;
@@ -16,6 +23,21 @@ header {
     position: fixed;
     z-index: 10;
 }
+
+#canva {
+    position: relative; 
+    width: 100%; 
+    height: 0; 
+    padding-top: 80.0000%;
+    padding-bottom: 48px; 
+    box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); 
+    margin-top: 1.6em;
+    margin-bottom: 0.5em; 
+    overflow: hidden;
+    border-radius: 8px; 
+    will-change: transform;
+}
+
 #logo {
     width: 145px;
     position: absolute;
@@ -167,6 +189,11 @@ section {
 .justificado {
     text-align: justify;
 }
+
+.espacamento2 {
+    margin-top: 110px;
+}
+
 .centralizado {
     text-align: center;
 }
@@ -204,11 +231,15 @@ footer3 {
    } 
    .coluna, .dois, .tres, .quatro {
         display: block;   
-        width: 100%;
+        width: 80%;
         padding: 0;
         margin: 10px auto;
         float: none;
    }
+
+ .espacamento2 {
+     margin-top: 10px;
+ }
 
    #subtitulo {
     color: rgb(0, 0, 0);
@@ -290,6 +321,7 @@ section {
     float: left;
     margin-top: 0px;
     margin-bottom: 35px;
+    width: 90%;
 }
 
    #logodiv {
